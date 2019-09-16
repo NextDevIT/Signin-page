@@ -1,0 +1,185 @@
+/*************************************
+*****   Google Font goes here   *******
+**************************************/
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700|Poppins:100,200,300,400,500,600,700,800,900,900i&display=swap');
+
+/*************************************
+*****   Headign Tag font-family   *******
+**************************************/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+/*************************************
+*****   href attribute font-family   *******
+**************************************/
+a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #000;
+}
+/*************************************
+*****   label font-family   *******
+**************************************/
+label{    font-family: 'Poppins', sans-serif;}
+input{    font-family: 'Poppins', sans-serif;}
+/*************************************
+*****   Body   *******
+**************************************/
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F4F4F4;
+}
+/*************************************
+*****   LogIn Box  *******
+**************************************/
+.loginbox {
+    width: 385px;
+    height: auto;
+    background: #fff;
+    color: #3A75DD;
+    top: 65%;
+    left: 50%;
+    margin-bottom: 20%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 77px 34px 41px;
+    box-shadow: 0px 2px 31px -5px #7d7575;
+}
+/*************************************
+*****   SignUp Box  *******
+**************************************/
+.signupBox {
+    width: 385px;
+    background: #000;
+    color: #fff;
+    top: 54%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 87px 34px;
+    padding-bottom: 34px;
+}
+/*************************************
+*****   Avatar  *******
+**************************************/
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -39px;
+    border: 2px solid;
+    left: 149px;
+}
+
+/*************************************
+*****   loginbox H1  *******
+**************************************/
+.loginbox h1 {
+    /* margin: 0; */
+    padding: 0px 0px 71px;
+    text-align: center;
+    font-size: 22px;
+    margin-top: -34px;
+}
+/*************************************
+*****   loginbox label  *******
+**************************************/
+.loginbox label {
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    font-size: 18px;
+}
+/*************************************
+*****   loginbox input  *******
+**************************************/
+.loginbox input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[type="text"],
+input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #756e6e85;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #151313;
+    font-size: 12px;
+}
+
+.loginbox input[type="submit"] {
+    border: none;
+    outline: none;
+    width: 227px;
+    height: 40px;
+    background: #3f6fd9;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 38px;
+    margin-top: -14px;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 0px 3px 7px -1px #7d7575;
+
+}
+
+.loginbox input[type="submit"]:hover {
+    cursor: pointer;
+    background: #ffc107;
+    color:#1554de;
+    transition: 0.5s;
+}
+/*************************************
+*****   loginbox href attribute   *******
+**************************************/
+.loginbox a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+    margin-right: 21px;
+}
+/*************************************
+*****   loginbox href attribute hover   *******
+**************************************/
+.loginbox a:hover {
+
+    color: #ffc107;
+}
+form.loginForm {
+    background-color: white;
+    padding: 22px;
+    border-radius: 10px;
+    margin-top: -38px;
+    position: relative;
+    box-shadow: 0px 4px 13px -6px #585252;
+}
+.img-tit {
+    width: 385px;
+    height: auto;
+    background: #3F6FD9;
+    color: #3A75DD;
+    margin-top: -31%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 140px 34px 41px;
+}
+.img-tit h1 {
+    color: white;
+}
+.loginbox-top {
+    margin-top: 89px;
+}
